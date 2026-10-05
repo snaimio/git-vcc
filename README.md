@@ -1,15 +1,23 @@
 <div align="center">
 
-# 🌳 Git Version Control & Collaboration Workflows
-### Trunk-Based Development, Branching Strategies & Merge Conflict Resolution
+# 🌿 Git Version Control & Collaboration Workflows
+### Enterprise Git Branching Models, Semantic Commit Standards & Release Management Guide
 
-[![Git](https://img.shields.io/badge/Git-VCS-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Workflows-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Git](https://img.shields.io/badge/VCS-Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![GitHub](https://img.shields.io/badge/Platform-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![DevOps](https://img.shields.io/badge/Practice-DevOps%20%26%20CI%2FCD-2496ED?style=for-the-badge)](https://github.com/)
 [![License](https://img.shields.io/badge/License-MIT-CEFF00?style=for-the-badge&logoColor=black)](LICENSE)
 
 <br/>
 
-**A technical reference repository demonstrating production-grade Git workflows, feature branching, pull request code reviews, rebase workflows, and 3-way merge conflict resolution.**
+This repository documents enterprise-grade **Git Version Control & Collaboration (VCC)** patterns. It covers branching strategies (GitFlow, GitHub Flow, Trunk-Based Development), merge vs rebase workflows, interactive history rewriting, and tag-based release pipelines.
+
+<br/>
+
+[Overview](#-technical-overview) •
+[Features](#-key-features) •
+[Setup & Run](#-how-to-build-and-run) •
+[License](#-license)
 
 </div>
 
@@ -18,23 +26,31 @@
 ---
 
 ## 📌 Technical Overview
-This repository captures industry-standard version control methodologies used in collaborative agile engineering teams.
 
-### 💼 Key Workflows Demonstrated
-- **Feature Branching & Trunk-Based Development**: Clean commit history with atomic, semantic commit messages.
-- **3-Way Merge Conflict Resolution**: Identifying conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), manual reconciliation, and clean fast-forward merges.
-- **GitHub Pull Request Workflows**: Issue tracking, branch protection, code review guidelines, and squashing commits.
+This repository documents enterprise-grade **Git Version Control & Collaboration (VCC)** patterns. It covers branching strategies (GitFlow, GitHub Flow, Trunk-Based Development), merge vs rebase workflows, interactive history rewriting, and tag-based release pipelines.
+
+---
+
+## ✨ Key Features
+
+- **Branching Strategies**: Practical guides for feature isolation, release hardening, and hotfix branches.
+- **History Hygiene**: Rebase workflows, squashing commits, and maintaining linear history.
+- **Collaboration Etiquette**: Pull request templates, code review checklists, and conflict resolution protocols.
+
+---
+
+## 🚀 How to Build and Run
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/snaimio/git-vcc.git
+   cd git-vcc
+   ```
+2. Open the project in your IDE (Xcode / Android Studio / Browser) and run.
 
 ---
 
 ## 📄 License
+
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-**Sheikh Naim**  
-*Mobile & Full-Stack Web Developer*  
-- **LinkedIn**: [linkedin.com/in/snaimio](https://www.linkedin.com/in/snaimio)  
-- **GitHub**: [@snaimio](https://github.com/snaimio)  
-- **Portfolio**: [snaimio.github.io](https://snaimio.github.io)
